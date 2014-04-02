@@ -4,15 +4,7 @@ source 'http://rubygems.org'
 
 ruby "2.0.0"
 
-gem "thin"
 gem "middleman", "~>3.2.2"
-
-group :development do
-  gem "heroku"
-  gem "watchr"
-  gem "rb-fsevent"
-  gem "growl_notify"
-end
 
 # Live-reloading plugin
 gem "middleman-livereload", "~> 3.1.0"
