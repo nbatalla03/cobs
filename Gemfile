@@ -6,7 +6,7 @@ ruby "2.0.0"
 
 gem "middleman", "~>3.2.2"
 gem "rack-contrib"
-gem "puma"
+gem 'unicorn', '~> 4.8.2'
 
 # Live-reloading plugin
 gem "middleman-livereload", "~> 3.1.0"
