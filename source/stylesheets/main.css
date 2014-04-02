@@ -251,12 +251,13 @@ header {
 }
 
 .maker-bg {
-  background: url("../images/maker-bg-2.jpg") no-repeat center center;
+  background: url("../images/maker-bg-2.jpg") no-repeat fixed center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   color: #fff;
+  position: device-fixed;:
   text-align: center;
 }
 
