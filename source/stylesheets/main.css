@@ -257,7 +257,6 @@ header {
   -o-background-size: cover;
   background-size: cover;
   color: #fff;
-  position: device-fixed;:
   text-align: center;
 }
 
@@ -434,7 +433,9 @@ header {
     margin-top: 1.875rem;
   }
   
-  .reverse-float {}
+  .reverse-float {
+    float: 0;
+  }
 }
 
 /* =========================================
