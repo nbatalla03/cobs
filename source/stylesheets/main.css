@@ -193,7 +193,7 @@ header {
 
 .event-images {
   display: inline-block;
-  max-width: 576px;
+  max-width: 650px;
   width: 90%;
 }
 
@@ -393,8 +393,8 @@ header {
   padding-right: 2rem;
 }
 
-.padding-top-5 {
-  margin-top: 5rem;
+.padding-top-2 {
+  margin-top: 2rem;
 }
 
 /* =========================================
