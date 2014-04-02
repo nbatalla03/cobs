@@ -412,6 +412,31 @@ header {
 }
 
 /* =========================================
+ * Media Queries
+ * ========================================= */
+
+@media screen and (max-width: 600px) {
+  .one-fourth {
+    width: 100%;
+  }
+
+  .two-thirds {
+    width: 100%;
+  }
+
+  .right-padding {
+    padding-right: 0;
+  }
+
+  .two-thirds.column {
+    margin-left: 0;
+    margin-top: 1.875rem;
+  }
+  
+  .reverse-float {}
+}
+
+/* =========================================
  * Clearfix
  * ========================================= */
 
