@@ -1,2 +1,2 @@
-web: bundle exec puma -p $PORT -e $RACK_ENV
+web: bundle exec middleman build && thin start -p $PORT
 
