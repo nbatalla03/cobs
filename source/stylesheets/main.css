@@ -257,6 +257,8 @@ header {
   -o-background-size: cover;
   background-size: cover;
   color: #fff;
+  min-width: 100%;
+  min-height: 100%;
   text-align: center;
 }
 
