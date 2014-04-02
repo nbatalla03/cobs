@@ -103,7 +103,7 @@ header {
 }
 
 .welcome {
-  background: url("../images/hero-image-3.jpg") no-repeat fixed center center;
+  background: url("../images/hero-image-4.jpg") no-repeat fixed center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -251,7 +251,17 @@ header {
 }
 
 .maker-bg {
-  background: url("../images/maker-bg.jpg") no-repeat fixed center center;
+  background: url("../images/maker-bg-2.jpg") no-repeat fixed center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+}
+
+.windy-city-bg {
+  background: url("../images/windy-city-bg.jpg") no-repeat fixed center top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -381,6 +391,10 @@ header {
 
 .right-padding {
   padding-right: 2rem;
+}
+
+.padding-top-5 {
+  margin-top: 5rem;
 }
 
 /* =========================================
