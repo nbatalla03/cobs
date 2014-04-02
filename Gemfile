@@ -2,7 +2,11 @@
 # the following line to use "https"
 source 'http://rubygems.org'
 
-ruby "2.0.0"
+gem 'rack-contrib'
+
+group :development do
+  gem 'unicorn'
+end
 
 gem "middleman", "~>3.2.2"
 
