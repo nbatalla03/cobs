@@ -16,6 +16,7 @@ body {
   background: #faf6f1;
   color: #4A4A4C;
   font: normal 100% "adobe-caslon-pro";
+  height: 100%;
 }
 
 h1 {
@@ -247,6 +248,7 @@ header {
   -o-background-size: cover;
   background-size: cover;
   color: #fff;
+  height: 100%;
   text-align: center;
 }
 
