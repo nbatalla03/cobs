@@ -32,7 +32,9 @@ title: Welcome to Middleman
 <div class="row row-padding event-intro clearfix">
   <div class="container">
     <div class="one-third column">
-      <%= image_tag 'card-badge.png', :class => "badges" %>
+      <% link_to 'speak-easy.html' do %>
+        <%= image_tag 'card-badge.png', :class => "badges" %>
+      <% end %>
     </div>
 
     <div class="two-thirds column">
@@ -55,13 +57,15 @@ title: Welcome to Middleman
 <div class="row row-padding event-intro clearfix">
   <div class="container">
     <div class="one-third column reverse-float text-align-right">
-      <%= image_tag 'wrench-badge.png', :class => "badges reverse-padding" %>
+      <% link_to 'maker.html' do %>
+        <%= image_tag 'wrench-badge.png', :class => "badges reverse-padding" %>
+      <% end %>
     </div>
 
     <div class="two-thirds column-reverse">
       <h2><a href="maker.html">Maker Night</a></h2>
       <p class="date_time"><strong>Wednesday April 23, 2014 &#8226; 6pm - 9pm &#8226; <a href="maker.html">More Info</a></strong></p>
-      <p>Chicago continues to embody this spirit of impressive craftsmanship and invention. At this event, you’ll be invited to participate in a LEGO hackathon, help try to make a mechanical robot, or create a bust of your own head using 3-D printing technology provided by the Field Museum. We’ll also have a local artist on hand to doodle your portrait, and a movable type to make your own press kit. While building at each booth, or at the after part downstairs, you'll have a chance to meet some of the best makers and movers and shakers in town.</p>
+      <p>Chicago continues to embody this spirit of impressive craftsmanship and invention. At this event, you’ll be invited to participate in a LEGO hackathon, help try to make a mechanical robot, or create a bust of your own head using 3-D printing technology provided by the Field Museum. We’ll also have a local artist on hand to doodle your portrait, and a movable type to make your own press kit. While building at each booth, or at the after party downstairs, you'll have a chance to meet some of the best makers and movers and shakers in Chicago.</p>
     </div>
   </div>
 </div>
@@ -78,7 +82,9 @@ title: Welcome to Middleman
 <div class="row row-padding event-intro clearfix">
   <div class="container">
     <div class="one-third column">
-      <%= image_tag 'mic-badge.png', :class => "badges" %>
+      <% link_to 'windy-city.html' do %>
+        <%= image_tag 'mic-badge.png', :class => "badges" %>
+      <% end %>
     </div>
 
     <div class="two-thirds column">
