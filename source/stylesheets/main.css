@@ -74,6 +74,10 @@ p {
   margin-bottom: 0;
 }
 
+.column .badges {
+  padding-right: 1rem;
+}
+
 /* ===============================================
  * =Layout
  * =============================================== */
@@ -298,7 +302,7 @@ header {
 }
 
 .badges {
-  max-width: 300px;
+  max-width: 250px;
   width: 100%;
 }
 
@@ -427,6 +431,10 @@ header {
 
 .padding-top-2 {
   margin-top: 2rem;
+}
+
+.reverse-padding {
+  padding-left: 1rem;
 }
 
 /* =========================================
