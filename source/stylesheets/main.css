@@ -465,7 +465,7 @@ header {
     margin-right: 0;
   }
 
-  .two-thirds.column, .two-thirds.column-reverse {
+  .event-intro .two-thirds.column, .event-intro .two-thirds.column-reverse {
     margin-left: 0;
     margin-top: 1.875rem;
   }
@@ -473,8 +473,9 @@ header {
 
 @media screen and (max-width: 680px) {
   .navigation a {
-    font-size: 0.6rem;
-    margin-left: 0.7rem;
+    display: block;
+    margin-left: 0;
+    margin-top: 0.5rem;
   }
 }
 
