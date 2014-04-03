@@ -188,8 +188,7 @@ header {
 }
 
 .headline-border {
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 1em;
+  border-bottom: 1px solid #f2eee9;
 }
 
 .event-images {
@@ -484,6 +483,10 @@ header {
   .prev-btn, .next-btn {
     text-align: center;
     width: 49.3%;
+  }
+
+  .headline-border {
+    padding-bottom: 1rem;
   }
 }
 
