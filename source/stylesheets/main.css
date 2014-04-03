@@ -468,6 +468,25 @@ header {
   }
 }
 
+@media screen and (max-width: 480px) {
+  .share {
+    text-align: center;
+  }
+
+  .one-half.column {
+    margin-left: 0;
+  }
+
+  .one-half {
+    width: 100%;
+  }
+
+  .prev-btn, .next-btn {
+    text-align: center;
+    width: 49.4%;
+  }
+}
+
 /* =========================================
  * Clearfix
  * ========================================= */
