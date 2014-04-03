@@ -241,7 +241,7 @@ header {
 }
 
 .speak-easy-bg {
-  background: url("../images/speak-easy-bg.jpg") no-repeat fixed center center;
+  background: url("../images/speak-easy-bg.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -251,19 +251,17 @@ header {
 }
 
 .maker-bg {
-  background: url("../images/maker-bg-2.jpg") no-repeat fixed center center;
+  background: url("../images/maker-bg-2.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   color: #fff;
-  min-width: 100%;
-  min-height: 100%;
   text-align: center;
 }
 
 .windy-city-bg {
-  background: url("../images/windy-city-bg.jpg") no-repeat fixed center top;
+  background: url("../images/windy-city-bg.jpg") no-repeat center top fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
