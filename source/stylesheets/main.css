@@ -66,6 +66,14 @@ p {
   margin-left: 0;
 }
 
+.next-btn:hover, .prev-btn:hover {
+  background: #f2ede7;
+}
+
+.event-intro p {
+  margin-bottom: 0;
+}
+
 /* ===============================================
  * =Layout
  * =============================================== */
@@ -456,6 +464,18 @@ header {
   .event-intro .column-reverse {
     margin-right: 0;
   }
+
+  .two-thirds.column, .two-thirds.column-reverse {
+    margin-left: 0;
+    margin-top: 1.875rem;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .navigation a {
+    font-size: 0.6rem;
+    margin-left: 0.7rem;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -473,11 +493,6 @@ header {
 
   .right-padding {
     padding-right: 0;
-  }
-
-  .two-thirds.column, .two-thirds.column-reverse {
-    margin-left: 0;
-    margin-top: 1.875rem;
   }
 
   .reverse-float {
