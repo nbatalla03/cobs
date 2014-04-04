@@ -12,13 +12,13 @@ html {
   -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
 }
 
-img[src$=".gif"], img[src$=".png"] {
-  image-rendering: -moz-crisp-edges;         /* Firefox */
-  image-rendering:   -o-crisp-edges;         /* Opera */
-  image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */
-  image-rendering: crisp-edges;
-  -ms-interpolation-mode: nearest-neighbor;  /* IE (non-standard property) */
-}
+/* img[src$=".gif"], img[src$=".png"] { */
+/*   image-rendering: -moz-crisp-edges;         /* Firefox */ */
+/*   image-rendering:   -o-crisp-edges;         /* Opera */ */
+/*   image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */ */
+/*   image-rendering: crisp-edges; */
+/*   -ms-interpolation-mode: nearest-neighbor;  /* IE (non-standard property) */ */
+/* } */
 
 body {
   background: #faf6f1;
