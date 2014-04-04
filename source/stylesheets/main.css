@@ -78,6 +78,15 @@ p {
   padding: 0 1rem;
 }
 
+.menu a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.main-nav ul {
+  padding: 2rem;
+}
+
 /* ===============================================
  * =Layout
  * =============================================== */
@@ -172,6 +181,15 @@ header {
   margin: 0;
 }
 
+.menu {
+  font-family: "futura-pt";
+  font-size: 1.3rem;
+  font-weight: 700;
+  padding: 1.875rem 2rem;
+  text-align: right;
+  text-transform: uppercase;
+}
+
 /* =========================================
  * Modules
  * ========================================= */
@@ -214,7 +232,7 @@ header {
   padding: 5rem 0;
 }
 
-.row-padding-bottom {
+.row-padding-bottom { 
   padding: 0 0 5rem;
 }
 
@@ -463,98 +481,45 @@ header {
 }
 
 /* =========================================
- * Pushy Code
+ * Off Canvas Menu
  * ========================================= */
 
-/*! Pushy - v0.9.1 - 2013-9-16
-* Pushy is a responsive off-canvas navigation menu using CSS transforms & transitions.
-* https://github.com/christophery/pushy/
-* by Christopher Yee */
-
-/* Menu Appearance */
-
-.pushy{
-    position: fixed;
-    width: 200px;
-    height: 100%;
-    top: 0;
-    z-index: 9999;
-    background: #333332;
-    font-size: 0.9em;
-    font-weight: bold;
-    -webkit-box-shadow: inset -10px 0 6px -9px rgba(0, 0, 0, .7);
-    -moz-box-shadow: inset -10px 0 6px -9px rgba(0, 0, 0, .7);
-    box-shadow: inset -10px 0 6px -9px rgba(0, 0, 0, .7);
-    overflow: auto;
-    -webkit-overflow-scrolling: touch; /* enables momentum scrolling in iOS overflow elements */
+.page-wrap {
+  width: 100%;
+  transition: width 0.3s ease;
 }
 
-.pushy a{
-    display: block;
-    color: #b3b3b1;
-    padding: 15px 30px;
-    border-bottom: 1px solid rgba(0, 0, 0, .1);
-    border-top: 1px solid rgba(255, 255, 255, .1);
-    text-decoration: none;
+.main-nav {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: #191918;
+  overflow-y: auto;
+  transition: width 0.3s ease;
 }
 
-.pushy a:hover{
-    background: #00b4ff;
-    color: #FFF;
+.close-menu {
+  display: none;
 }
 
-/* Menu Movement */
-
-.pushy-left{
-    -webkit-transform: translate3d(-200px,0,0);
-    -moz-transform: translate3d(-200px,0,0);
-    -ms-transform: translate3d(-200px,0,0);
-    -o-transform: translate3d(-200px,0,0);
-    transform: translate3d(-200px,0,0);
+#main-nav:target {
+  width: 300px;
 }
 
-.pushy-open{
-    -webkit-transform: translate3d(0,0,0);
-    -moz-transform: translate3d(0,0,0);
-    -ms-transform: translate3d(0,0,0);
-    -o-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);
+#main-nav:target + .page-wrap {
+  width: 100%;
 }
-
-.container-push, .push-push{
-    -webkit-transform: translate3d(200px,0,0);
-    -moz-transform: translate3d(200px,0,0);
-    -ms-transform: translate3d(200px,0,0);
-    -o-transform: translate3d(200px,0,0);
-    transform: translate3d(200px,0,0);
+#main-nav:target + .page-wrap .open-menu {
+  display: none;
 }
-
-/* Menu Transitions */
-
-.pushy, #container, .push{
-    -webkit-transition: -webkit-transform .2s cubic-bezier(.16, .68, .43, .99);
-    -moz-transition: -moz-transform .2s cubic-bezier(.16, .68, .43, .99);
-    -o-transition: -o-transform .2s cubic-bezier(.16, .68, .43, .99);
-    transition: transform .2s cubic-bezier(.16, .68, .43, .99);
-    /* improves performance issues on mobile*/
-    -webkit-backface-visibility: hidden;
-    -webkit-perspective: 1000;
+#main-nav:target + .page-wrap .close-menu {
+  display: block;
 }
-
-/* Site Overlay */
-
-.site-overlay{
-    display: none;
-}
-
-.pushy-active .site-overlay{
-    display: block;
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 200px;
-    z-index: 9999;
+#main-nav:target + .page-wrap .main-header {
+  width: 80%;
+  left: 20%;
 }
 
 /* =========================================

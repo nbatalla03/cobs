@@ -11,49 +11,50 @@
     <title><%= current_page.data.title + " - City of Broad Shoulders" || "The City of Broad Shoulders" %></title>
     
     <%= stylesheet_link_tag "normalize", "main" %>
-    <%= javascript_include_tag  "all" %>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     <script type="text/javascript" src="//use.typekit.net/gop8mxt.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   </head>
   
   <body class="<%= page_classes %>">
-    <div id="container">
-      <%= yield %>
 
-      <div class="row row-padding-medium footer clearfix">
-        <div class="container">
-          <div class="one-third column">
-            <h3>Stay Connected</h3>
-            <ul class="share">
-              <li><a href="#"><img src="images/facebook-share-icon.png"></a></li>
-              <li><a href="#"><img src="images/twitter-share-icon.png"></a></li>
-              <li><a href="#"><img src="images/linkedin-share-icon.png"></a></li>
-              <li><a href="#"><img src="images/google-share-icon.png"></a></li>
-            </ul>
-          </div>
-          <div class="one-third column center">
-            <%= image_tag 'logo-small.png' %>
-          </div>
-          <div class="one-third column text-right">
-            <h3>Contact</h3>
-            <p>email@address.com</p>
-            <p>&copy;	2014 City Of Broad Shoulders</p>
-          </div>
+  <div class="main-nav" id="main-nav">
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li>Speak Easy Night</li>
+      <li>Maker Night</li>
+      <li>Windy City Night</li>
+      <li><a href="#">Close</a></li>
+    </ul>
+  </div>
+
+  <div class="page-wrap">
+    <%= yield %>
+
+    <div class="row row-padding-medium footer clearfix">
+      <div class="container">
+        <div class="one-third column">
+          <h3>Stay Connected</h3>
+          <ul class="share">
+            <li><a href="https://www.facebook.com/ChicagoBroadShoulders"><img src="images/facebook-share-icon.png"></a></li>
+            <li><a href="https://twitter.com/COBS_2014"><img src="images/twitter-share-icon.png"></a></li>
+            <!-- <li><a href="#"><img src="images/linkedin&#45;share&#45;icon.png"></a></li> -->
+            <!-- <li><a href="#"><img src="images/google&#45;share&#45;icon.png"></a></li> -->
+          </ul>
+        </div>
+        <div class="one-third column center">
+          <%= image_tag 'logo-small.png' %>
+        </div>
+        <div class="one-third column text-right">
+          <h3>Contact</h3>
+          <p>email@address.com</p>
+          <p>&copy;	2014 City Of Broad Shoulders</p>
         </div>
       </div>
     </div>
+  </div>
 
-    <div class="site-overlay"></div>
-
-    <nav class="pushy pushy-left">
-      <ul>
-        <li><a href="#">Item 1</a></li>
-        <li><a href="#">Item 2</a></li>
-        <li><a href="#">Item 3</a></li>
-        <li><a href="#">Item 4</a></li>
-        <li><a href="#">Item 5</a></li>
-        <li><a href="#">Item 6</a></li>
-      </ul>
-    </nav>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <%= javascript_include_tag  "all" %>
   </body>
 </html>
