@@ -521,6 +521,7 @@ header {
   background: #191918;
   overflow-y: auto;
   transition: width 0.3s ease;
+  z-index: 100;
 }
 
 .close-menu {
