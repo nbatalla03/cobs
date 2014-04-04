@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= current_page.data.title || "The Middleman" %></title>
+    <title><%= current_page.data.title + " - City of Broad Shoulders" || "The City of Broad Shoulders" %></title>
     
     <%= stylesheet_link_tag "normalize", "main" %>
     <%= javascript_include_tag  "all" %>
@@ -17,29 +17,43 @@
   </head>
   
   <body class="<%= page_classes %>">
-    <%= yield %>
+    <div id="container">
+      <%= yield %>
 
-    <div class="row row-padding-medium footer clearfix">
-      <div class="container">
-        <div class="one-third column">
-          <h3>Stay Connected</h3>
-          <ul class="share">
-            <li><a href="#"><img src="images/facebook-share-icon.png"></a></li>
-            <li><a href="#"><img src="images/twitter-share-icon.png"></a></li>
-            <li><a href="#"><img src="images/linkedin-share-icon.png"></a></li>
-            <li><a href="#"><img src="images/google-share-icon.png"></a></li>
-          </ul>
-        </div>
-        <div class="one-third column center">
-          <%= image_tag 'logo-small.png' %>
-        </div>
-        <div class="one-third column text-right">
-          <h3>Contact</h3>
-          <p>email@address.com</p>
-          <p>&copy;	2014 City Of Broad Shoulders</p>
+      <div class="row row-padding-medium footer clearfix">
+        <div class="container">
+          <div class="one-third column">
+            <h3>Stay Connected</h3>
+            <ul class="share">
+              <li><a href="#"><img src="images/facebook-share-icon.png"></a></li>
+              <li><a href="#"><img src="images/twitter-share-icon.png"></a></li>
+              <li><a href="#"><img src="images/linkedin-share-icon.png"></a></li>
+              <li><a href="#"><img src="images/google-share-icon.png"></a></li>
+            </ul>
+          </div>
+          <div class="one-third column center">
+            <%= image_tag 'logo-small.png' %>
+          </div>
+          <div class="one-third column text-right">
+            <h3>Contact</h3>
+            <p>email@address.com</p>
+            <p>&copy;	2014 City Of Broad Shoulders</p>
+          </div>
         </div>
       </div>
     </div>
 
+    <div class="site-overlay"></div>
+
+    <nav class="pushy pushy-left">
+      <ul>
+        <li><a href="#">Item 1</a></li>
+        <li><a href="#">Item 2</a></li>
+        <li><a href="#">Item 3</a></li>
+        <li><a href="#">Item 4</a></li>
+        <li><a href="#">Item 5</a></li>
+        <li><a href="#">Item 6</a></li>
+      </ul>
+    </nav>
   </body>
 </html>
