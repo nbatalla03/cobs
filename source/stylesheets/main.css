@@ -95,7 +95,7 @@ p {
 }
 
 .main-nav ul li {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   vertical-align: bottom;
 }
 
@@ -103,6 +103,10 @@ p {
   color: #fff;
   text-decoration: none;
   vertical-align: bottom;
+}
+
+.main-nav ul li a:hover {
+  color: #aaa;
 }
 
 /* ===============================================
