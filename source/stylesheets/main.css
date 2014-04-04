@@ -286,6 +286,11 @@ header {
   padding-bottom: 0.875rem;
 }
 
+.fb_iframe_widget span {
+  margin-top: -4px;
+  vertical-align: top !important;
+}
+
 .dented-bg {
   background: #f2eee9;
   border-radius: 5px;
