@@ -572,6 +572,10 @@ header {
     margin-left: 0;
     margin-top: 1.875rem;
   }
+
+  .maker-bg, .speak-easy-bg, .windy-city-bg, .welcome {
+    background-attachment: scroll;
+  }
 }
 
 @media screen and (max-width: 680px) {
@@ -657,10 +661,6 @@ header {
 
   .headline-border {
     padding-bottom: 1rem;
-  }
-
-  .maker-bg, .speak-easy-bg, .windy-city-bg, .welcome {
-    background-attachment: scroll;
   }
 }
 
