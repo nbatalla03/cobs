@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= current_page.data.title + " - City of Broad Shoulders" || "The City of Broad Shoulders" %></title>
+    <title><%=current_page.data.title.nil? ? "City of Broad Shoulders" : current_page.data.title + " - City of Broad Shoulders" %></title>
     
     <%= stylesheet_link_tag "normalize", "main" %>
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
