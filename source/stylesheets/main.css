@@ -110,6 +110,15 @@ p {
   color: #aaa;
 }
 
+.register-btn:hover {
+  background-image: -o-linear-gradient(bottom, #F73B38 0%, #E0593E 100%);
+  background-image: -moz-linear-gradient(bottom, #F73B38 0%, #E0593E 100%);
+  background-image: -webkit-linear-gradient(bottom, #F73B38 0%, #E0593E 100%);
+  background-image: -ms-linear-gradient(bottom, #F73B38 0%, #E0593E 100%);
+  background-image: linear-gradient(to bottom, #F73B38 0%, #E0593E 100%);
+  color: #fff;
+}
+
 /* ===============================================
  * =Layout
  * =============================================== */
@@ -465,25 +474,6 @@ header {
  * Buttons
  * ========================================= */
 
-.button {
-  background: #888;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  color: #f2eee9;
-  display: inline-block;
-  font: bold 1.5rem "futura-pt";
-  font-weight: 700;
-  letter-spacing: 1px;
-  padding: 1rem 9rem;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-.button:hover {
-  background: #999;
-}
-
 .register-btn {
   border-radius: 3px;
   -webkit-border-radius: 5px;
@@ -500,14 +490,6 @@ header {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
-}
-
-.register-btn:hover {
-  background-image: -o-linear-gradient(bottom, #F73B38 0%, #E0593E 100%);
-  background-image: -moz-linear-gradient(bottom, #F73B38 0%, #E0593E 100%);
-  background-image: -webkit-linear-gradient(bottom, #F73B38 0%, #E0593E 100%);
-  background-image: -ms-linear-gradient(bottom, #F73B38 0%, #E0593E 100%);
-  background-image: linear-gradient(to bottom, #F73B38 0%, #E0593E 100%);
 }
 
 /* =========================================
