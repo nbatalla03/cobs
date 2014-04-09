@@ -111,11 +111,45 @@ p {
   width: 90%;
 }
 
-.sponsors {
+.logo-medium {
+  display: block;
+  margin: 0 auto;
+  max-width: 271px;
+  width: 90%;
+}
+
+.sponsors-logo {
   display: block;
   margin: 1.875rem auto 0;
   max-width: 442px;
   width: 90%;
+}
+
+.large-sponsor-list {
+  text-align: center;
+}
+
+.eight-light-logo, .table-xi-logo, .dev-mynd-logo, .dbc-logo {
+  width: 100%;
+}
+
+.eighth-light-logo {
+  max-width: 100px;
+}
+
+.table-xi-logo {
+  margin-top: 35px;
+  max-width: 180px;
+}
+
+.dev-mynd-logo {
+  margin-top: 45px;
+  max-width: 180px;
+}
+
+.dbc-logo {
+  margin-top: 30px;
+  max-width: 180px;
 }
 
 .row {
@@ -247,6 +281,10 @@ header {
   padding: 5rem 0;
 }
 
+.row-padding-special {
+  padding: 5rem 0 1rem 0;
+}
+
 .row-padding-bottom { 
   padding: 0 0 5rem;
 }
@@ -261,6 +299,10 @@ header {
 
 .row-padding-small {
   padding: 0.875rem 0;
+}
+
+.row-padding-small-special {
+  padding: 0.875rem 0 5rem 0;
 }
 
 .headline-border {
