@@ -681,6 +681,10 @@ header {
   .sub_headline {
     font-size: 1.5rem;
   }
+
+  .large-sponsor-list .column {
+    margin-left: 0;
+  }
 }
 
 @media screen and (max-width: 480px) {
