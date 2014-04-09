@@ -5,7 +5,9 @@
   </div>
 
   <%= image_tag 'logo.png', :class => "logo" %>
-  <%= image_tag 'sponsors.png', :class => "sponsors-logo" %>
+  <% link_to 'sponsors.html' do %>
+    <%= image_tag 'sponsors.png', :class => "sponsors-logo" %>
+  <% end %>
 </div>
 
 <div class="row row-padding">
@@ -15,7 +17,7 @@
       <p class="sub_headline side-padding">A three-night event during the week of RailsConf to showcase Chicago’s enduring entrepreneurial spirit.</p>
       <p class="medium-text side-padding">
         Each night presents a snapshot of the city in a different era from the Speakeasy saloon in the Roaring ’20s, to the International World’s Fair, and the city’s longstanding legacy of storytelling. 
-        Hosted by four Chicago organizations that represent our city's software craftsmanship, the three-day event allows attendees to brush shoulders with other craftsmen while re-living pieces of Chicago’s history.
+        Hosted by <a href="sponsors.html">four Chicago organizations</a> that represent our city's software craftsmanship, the three-day event allows attendees to brush shoulders with other craftsmen while re-living pieces of Chicago’s history.
       </p>
     </div>
   </div>

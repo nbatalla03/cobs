@@ -48,6 +48,15 @@ h3 {
   /* text-transform: uppercase; */
 }
 
+a {
+  color: #F33D36;
+  font-weight: 700;
+}
+
+a:hover {
+  color: #FF5952;
+}
+
 p {
   font-size: 1.1875rem;
   font-weight: 400;
