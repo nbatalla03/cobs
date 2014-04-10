@@ -264,6 +264,10 @@ header {
   text-transform: uppercase;
 }
 
+.sponsors-highlight {
+  background: #fff;
+}
+
 /* =========================================
  * Modules
  * ========================================= */
@@ -522,6 +526,10 @@ header {
   padding: 0 10%;
 }
 
+.medium-side-padding {
+  padding: 0 25%;
+}
+
 .side-padding-small {
   padding: 0 2rem;
 }
@@ -693,6 +701,10 @@ header {
 
   .large-sponsor-list .column {
     margin-left: 0;
+  }
+
+  .medium-side-padding {
+    padding: 0 10%;
   }
 }
 
